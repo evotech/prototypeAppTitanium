@@ -25,9 +25,15 @@ $.buttonPaint.addEventListener('click', function(e){
 	navigateTo({name : 'paint'});
 });
 
+$.buttonOCR.addEventListener('click', function(e){
+	navigateTo({name : 'ocrmobile'});
+});
+// 
 $.buttonBarcode2.addEventListener('click', function(e){
 	navigateTo({name : 'barcode'});
 });
+
+
 
 function navigateTo(e){
 	var controller = Alloy.createController(e.name);

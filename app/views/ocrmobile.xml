@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container" id="win">
+		<Button id="btnOpenCamera" title="From Camera" onClick="openCamera"/>
+		<Button id="btnOpenGallery" title="From Gallery" onClick="openGallery"/>
+		<Label id="lblResult" text=""></Label>
+	</Window>
+</Alloy>
